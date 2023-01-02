@@ -7,3 +7,8 @@ No final, o sistema vai exibir a mensagem:
 
 "Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!" */
 
+prompt (age)
+prompt (name) 
+prompt (language)
+
+alert (olá)
