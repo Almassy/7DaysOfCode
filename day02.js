@@ -6,14 +6,25 @@
 No final, o sistema vai exibir a mensagem:
 
 "Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!" */
-var age = "idade"
+
+/*var age = "idade"
 
 var language = "linguagem"
 
-var name = "nome"
+var name = "nome" */
 
-prompt (name);
-prompt (age); 
-prompt (language);
+    function name (x){
+        prompt (x);
+    }
 
-document.write ("Olá " + name + " você tem " + age + " anos e já está aprendendo " + language);
+    function age (y) {
+        prompt (y);
+        
+    }
+
+    function language (z){
+        prompt (z);
+    }
+
+
+document.write ("Olá " + name () + " você tem " + age () + " anos e já está aprendendo " + language());
