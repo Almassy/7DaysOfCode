@@ -7,11 +7,6 @@ No final, o sistema vai exibir a mensagem:
 
 "Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!" */
 
-/*var age = "idade"
-
-var language = "linguagem"
-
-var name = "nome" */
     function show (phrase){
         document.write(phrase)
     }
