@@ -13,18 +13,8 @@ var language = "linguagem"
 
 var name = "nome" */
 
-    function name (x){
-        prompt (x);
-    }
+    var name = prompt ("Olá, qual seu nome?");
+    var age = prompt (name + ", qual sua idade?");
+    var language = prompt (name + ", qual linguagem você está estudando?");
 
-    function age (y) {
-        prompt (y);
-        
-    }
-
-    function language (z){
-        prompt (z);
-    }
-
-
-document.write ("Olá " + name () + " você tem " + age () + " anos e já está aprendendo " + language());
+document.write ("Olá " + name + " você tem " + age + " anos e já está aprendendo " + language);
