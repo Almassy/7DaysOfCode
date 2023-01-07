@@ -15,9 +15,9 @@ var name = "nome" */
     function show (phrase){
         document.write(phrase)
     }
-    var name = prompt ("Olá, qual seu nome?");
-    var age = prompt (name + ", qual sua idade?");
-    var language = prompt (name + ", qual linguagem você está estudando?");
+    const name = prompt ("Olá, qual seu nome?");
+    const age = prompt (name + ", qual sua idade?");
+    const language = prompt (name + ", qual linguagem você está estudando?");
 
 show ("Olá " + name + " você tem " + age + " anos e já está aprendendo " + language);
 
@@ -33,11 +33,11 @@ E aí, dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
 function like (){
     let ask = prompt ("Você está gostando de estudar " + language + "? <p> 1 = SIM</p><p>2 = Não</p> ");
 
-    if (ask = 1){
+    if (ask == 1){
         show("<br> Muito bom! Continue estudando e você terá muito sucesso!");
     }
-    if (ask = 2) { show ("<br> Ahh que pena... Já tentou aprender outras linguagens?");}
-    if (ask !=1 !=2) {show ("<br> Preciso que aperte F5 e responda corretamente a última pergunta")}
+    else if (ask == 2) { show ("<br> Ahh que pena... Já tentou aprender outras linguagens?");}
+    else if (ask !=1 !=2); {show ("<br> Preciso que aperte F5 e responda corretamente a última pergunta")}
 }
 
 like();
